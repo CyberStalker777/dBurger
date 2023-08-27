@@ -1,0 +1,15 @@
+@media print {
+
+    .nav,
+    .wrapper,
+    .allcards {
+        display: none;
+    }
+
+    .print {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
